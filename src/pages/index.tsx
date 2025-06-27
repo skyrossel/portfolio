@@ -1,5 +1,5 @@
 import { RoughNotation, RoughNotationGroup } from 'react-rough-notation'
-import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import { BiLogoTelegram } from 'react-icons/bi'
 import TypeIt from 'typeit-react'
 import {
@@ -296,6 +296,20 @@ export default function Home() {
                   >
                     <Icon as={IoLogoGithub} />
                     Github
+                  </Link>
+                </ListItem>
+                <ListItem width='max-content'>
+                  <Link
+                    href='https://uz.linkedin.com/in/%D0%B0%D0%BB%D0%B8%D0%B1%D0%B5%D0%BA-%D0%B0%D0%BB%D0%BB%D0%B0%D0%BD%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%B2-89421b2a0'
+                    target='_blank'
+                    color={useColorModeValue('grey.800', 'whiteAlpha.900')}
+                    display='flex'
+                    alignItems='center'
+                    columnGap='0.25rem'
+                    cursor='pointer'
+                  >
+                    <Icon as={IoLogoLinkedin} />
+                    Linkedin
                   </Link>
                 </ListItem>
                 <ListItem>
